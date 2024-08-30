@@ -7,7 +7,8 @@ import subprocess
 
 # Function to prompt user for API key
 def get_api_key():
-    api_key = tk.simpledialog.askstring("API", "Please enter your Google API Key:")
+    # api_key = tk.simpledialog.askstring("API", "Please enter your Google API Key:")
+    api_key = 'AIzaSyA8kK3OLnHUENwN-Oxz9qwP98vFhCc0aNQ'
     if not api_key:
         messagebox.showwarning("API Key Required", "You must enter a valid API Key to use this application.")
         exit()
